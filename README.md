@@ -4,11 +4,16 @@ svg_to_dxf
 The code here is basically an extracted copy of the "Save As DXF" export extension from Inkscape 1.0
 (as implemented in `src/dxf_outlines.py`)
 
+It is needed by TPMS Studio for stencil generation for converting the SVG files that TPMS Studio generates, into a format the laser cutters can use (i.e. DXF 14).
+
+
 ## Usage
 
+Standard Usage:
 ```
 svg_to_dxf.py --output "000001.dxf" 000001.svg
 ```
+
 
 ## Setup
 
