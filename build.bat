@@ -9,6 +9,9 @@ pyinstaller svg_to_dxf.py
 
 @REM Delete the temporary build files
 rmdir /s /q build
+del /f svg_to_dxf.spec
+
+@REM Todo - Delete all the unneeded binaries included in the bundle...
 
 @REM Copy the binaries to a more easily accessible place
 move dist\svg_to_dxf ..\dist
@@ -20,10 +23,6 @@ pwd
 
 @REM Copy the license text stuff
 copy README.md dist\README.txt
-
-copy COPYING dist\COPYING
-copy GPL-2.0.txt dist\GPL-2.0.txt
-copy GPL-3.0.txt dist\GPL-3.0.txt
-copy LGPL-2.1.txt dist\LGPL-2.1.txt
+copy legal\ dist\
 
 
