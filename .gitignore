@@ -1,0 +1,12 @@
+*~
+*.swp
+$*
+
+Thumbs.db
+
+__pycache__/
+*.py[co]
+
+build/
+dist/
+

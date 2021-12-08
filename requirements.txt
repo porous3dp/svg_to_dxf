@@ -1,0 +1,3 @@
+# For inkex
+lxml == 4.6.4
+
