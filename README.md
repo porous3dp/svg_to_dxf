@@ -14,6 +14,10 @@ Standard Usage:
 svg_to_dxf.py --output "000001.dxf" 000001.svg
 ```
 
+Lazy Usage (output is written to the same folder as the input file):
+```
+svg_to_dxf.py 000002.svg
+```
 
 ## Setup
 
