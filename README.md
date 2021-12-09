@@ -35,6 +35,10 @@ To compile the script to a standalone binary that can be called other programs:
 $ build.bat
 ```
 
+To use/deploy the compiled binary (i.e. no Python install needed), simply copy
+the `dist/` folder (including all the .dlls, etc.) included in there. Then you
+can just run "svg_to_dxf.exe"
+
 
 ## License
 
